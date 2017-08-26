@@ -4,7 +4,7 @@
     "label": "Software Developer",
     "picture": "https://techfolios.github.io/template/images/molly.png",
     "email": "chokevin@hawaii.edu",
-    "phone": "808-333-4444",
+    "phone": "",
     "website": "https://chokevin.github.io",
     "summary": "I am studying for a B.S. in Computer Engineering in the Department of Electrical Engineering at the University of Hawaii. I expect to graduate in Spring, 2018.",
     "location": {
@@ -39,19 +39,19 @@
   },
   "interests": [
     {
-      "name": "internet of things",
+      "name": "Internet of Things",
       "keywords": [
-        "Arduino",
-        "TI MSP430"
+        "IBM Bluemix",
+        "Ambient Dynamix"
       ]
     },
     {
-      "name": "data mining",
+      "name": "Mobile Development",
       "keywords": [
       ]
     },
     {
-      "name": "artificial intelligence",
+      "name": "Financial Technology",
       "keywords": [
       ]
     }
@@ -65,8 +65,9 @@
         "C++",
         "Java",
         "Javascript",
-        "Assembly",
-        "Common Lisp"
+        "React Native",
+        "Python",
+        "Web Development",
       ]
     },
     {
@@ -77,7 +78,6 @@
         "Ubuntu",
         "Git/GitHub",
         "g++",
-        "TI LaunchPad"
       ]
     }
   ],
@@ -86,50 +86,82 @@
       "institution": "University of Hawaii, Honolulu, HI",
       "area": "Computer Science (expected Spring, 2018)",
       "studyType": "B.S.",
-      "startDate": "2013-09-01",
+      "startDate": "2014-09-01",
       "endDate": "Present",
-      "gpa": "",
+      "gpa": "3.83",
       "courses": [
       ]
     }
   ],
   "work": [
     {
-      "company": "UH Manoa Board of Publications",
-      "position": "Web Developer",
-      "website": "",
-      "startDate": "2015-08-01",
-      "endDate": "Present",
-      "summary": "Head of online presence for Ka Leo",
+      "company": "Amazon",
+      "position": "Software Development Engineer",
+      "website": "https://www.amazon.com/spark",
+      "startDate": "2017-05-23",
+      "endDate": "2017-08-11",
+      "summary": "Full stack developer for Amazon Spark",
       "highlights": [
-        "Maintain, update, and oversee official college newspaper website",
-        "Drive, design and build student-community projects for UH Manoa"
+        "In charge of an implementation and scaling of the end-to-end Amazon Spark publishing experience using React
+Native/Flux and Java/Spring which is used in >80% of all published posts",
+        "Designed backend to support two different API integrations",
+        "Refactored existing code for increased readability and reusability",
+        "Built unit and integration tests for 100% code coverage using JUnit, Jest, JaCoCo, and Istanbul",
+        "Practiced Agile development and presented design documentation which covered the full product lifecycle",
       ]
     },
     {
-      "company": "UH Information Technology Services",
-      "position": "Help Desk Consultant",
-      "website": "http://www.hawaii.edu/its/",
-      "startDate": "2015-01-01",
-      "endDate": "2016-03-15",
-      "summary": "",
+      "company": "University of Hawaii at Manoa",
+      "position": "Undergraduate Teaching Assistant",
+      "website": "http://www.ee.hawaii.edu/",
+      "startDate": "2016-08-31",
+      "endDate": "2017-05-12",
+      "summary": "Teaching assistant for object-oriented programming and digital logic design",
       "highlights": [
-        "Troubleshoot software, hardware and networking issues over the phone",
-        "Answer phone and email responses to the ITS Help Desk"
+        "Instruct on C++ and object oriented programming paradigm through labs and homework to 26 students weekly",
+        "Design bash scripts to automate testing of lab assignments",
+        "Lead 25 students in FPGA and basic digital circuit design through weekly labs",
+      ]
+  },
+    {
+      "company": "Northrop Grumman Aerospace Systems",
+      "position": "Microelectronics Technical Intern",
+      "website": "http://www.northropgrumman.com/",
+      "startDate": "2016-06-07",
+      "endDate": "2016-08-14",
+      "summary": "RF/Software engineering in charge of testing and automation",
+      "highlights": [
+        "Developed MATLAB GUI which streamlined amplifier loadpull and speed up postprocessing by 15%",
+        "Utilized Red Hat Enterprise Linux server for CAD simulation and scripting",
+        "Simulated calibration structures using ADS and Sonnet 2D EM software packages",
+        "Tested GaN, GaAs, and InP transistors for power and gain"
       ]
     }
   ],
   "volunteer": [
     {
-      "organization": "Center for Renewable Energy and Island Sustainability",
+      "organization": "Smart Campus Energy Lab",
       "website": "http://manoa.hawaii.edu/reis",
       "position": "Software Developer",
       "startDate": "2016-01-01",
       "endDate": "Present",
-      "summary": "Lead developer for weather sensing project",
+      "summary": "Developer for data visualization and backend technologies",
       "highlights": [
-        "Design firmware for distributed weather sensor network",
-        "Maintain custom data collection and storage infrastructure"
+        "Implemented plot generation through the plot.ly Python API for collected sensor data",
+        "Pioneered unit and integration testing through pytest, coverage, and nose which led to 100% code coverage"
+      ]
+    },
+    {
+      "organization": "Ambient Computing Group",
+      "website": "http://www.ambient.uni-luebeck.de/research_dynamix.html",
+      "position": "Software Developer",
+      "startDate": "2016-01-01",
+      "endDate": "Present",
+      "summary": "Developer for IoT technologies",
+      "highlights": [
+        "Android plugin developer for an Internet of Things (IoT) smart gateway framework for IoT interaction",
+        "Implemented plugin with Google Nearby API for proximity-based web content loading for easy access, secure IoT
+endpoints"
       ]
     },
     {
@@ -140,25 +172,20 @@
       "endDate": "",
       "summary": "",
       "highlights": [
-        "Chair, ACM Manoa, 2016-Present",
+        "President, IEEE-HKN Delta Omega Chapter, 2017-Present",
+        "Webmaster, IEEE Student Branch, 2017-Present",
         "Member, IEEE Student Branch, 2014-Present",
-        "Webmaster/IT Officer, IEEE Student Branch, UH Manoa, 2012-2013"
+        "Student Advisory Board Chair, IEEE Student Branch, UH Manoa, 2015-2016",
       ]
     }
   ],
   "awards": [
     {
-      "title": "B+ Scholarship",
-      "date": "2013-Present",
-      "awarder": "State of Hawaii",
-      "summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at a Hawai'i public school."
-    },
-    {
-      "title": "First place",
-      "date": "2015",
-      "awarder": "University of Hawaii Micromouse Competition",
-      "summary": "My team won first place in 2015.  See my portfolio site for more details."
-    }
+      "title": "Chancellor's Scholarship",
+      "date": "2014-Present",
+      "awarder": "University of Hawaii",
+      "summary": "Scholarships awarded $10000/yr to the top 5% of freshman enrollment at UH Manoa"
+  }
   ],
   "references": [
     {
