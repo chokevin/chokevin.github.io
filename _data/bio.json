@@ -2,7 +2,7 @@
   "basics": {
     "name": "Kevin Cho",
     "label": "Software Developer",
-    "picture": "https://techfolios.github.io/template/images/molly.png",
+    "picture": "https://chokevin.github.io/template/images/profile_image.png",
     "email": "chokevin@hawaii.edu",
     "phone": "",
     "website": "https://chokevin.github.io",
@@ -24,16 +24,6 @@
         "network": "linkedin",
         "username": "chokevin",
         "url": "http://linkedin.com/in/chokevin"
-      },
-      {
-        "network": "twitter",
-        "username": "chokevin",
-        "url": "http://twitter.com/chokevin"
-      },
-      {
-        "network": "instagram",
-        "username": "kevinn_cho",
-        "url": "http://instagram.com/kevinn_cho"
       }
     ]
   },
