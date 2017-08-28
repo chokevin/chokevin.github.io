@@ -1,24 +1,24 @@
 ---
 layout: project
 type: project
-image: images/vacay-square.png
-title: Vacay
-permalink: projects/vacay
-date: 2015
+image: images/ambient_dynamix_project.jpg
+title: Proximity-Based Authentication For Smart Spaces
+permalink: projects/dynamix
+date: 2017-05-12
 labels:
-  - Javascript
-  - Meteor
-  - MongoDB
-  - GitHub
-summary: A responsive web application for travel planning that my team developed in ICS 415.
+  - Android
+  - Java
+  - Git
+  - Google Nearby API
+summary: An implementation of Google Nearby to create proximity-aware api exposure for smart spaces.
 ---
 
-<img class="ui medium right floated rounded image" src="../images/vacay-home-page.png">
+<img class="ui medium right floated rounded image" src="../images/nearby.jpg">
 
-Vacay is a web application that I helped create as a team project in ICS 415, Spring 2015. The project helped me learn how to design and implement a responsive web site.
+In this project, I implemented the Google Nearby API in a prototype application to investigate usage in a proximity-based authenticator. The idea is that web pages would be able to change dynamically based on a pub-sub connection between a Google Nearby Hub within a smart space and a users phone.
 
-Vacay is implemented using [Meteor](http://meteor.com), a JavaScript application platform. Within two weeks, we created a website that implements several types of reservations including flights, hotels, and car rentals.
+The project was implemented Android and IntelliJ. There was a large learning curve since I had never dealt with Java before; however, I was able to quickly produce a working demonstration by the end of the semester.
 
-In this project I gained experience with full-stack web application design and associated technologies, including [MongoDB](http://mongodb.com) for database storage, the [Twitter Bootstrap](http://getbootstrap.com/) CSS Framework for the user interface, and Javascript for both client and server-side programming. 
- 
-Source: <a href="https://github.com/theVacay/vacay"><i class="large github icon"></i>theVacay/vacay</a>
+In this project I gained experience with version control, mobile development, and the internet of things. 
+
+You can see more at [Ambient Dynamix](http://ambientdynamix.org/).

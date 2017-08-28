@@ -1,10 +1,10 @@
 ---
 layout: project
 type: project
-image: images/micromouse.jpg
+image: images/amazon-spark-3.jpeg
 title: Amazon Spark
 permalink: projects/spark
-date: 2017
+date: 2017-08-19
 labels:
   - Java
   - Javascript
@@ -12,11 +12,9 @@ labels:
 summary: My team helped launch Amazon's first ever social media experience reaching over 100,000+ users.
 ---
 
-<div class="ui small rounded images">
-  <img class="ui image" src="../images/micromouse-robot.png">
-  <img class="ui image" src="../images/micromouse-robot-2.jpg">
-  <img class="ui image" src="../images/micromouse.jpg">
-  <img class="ui image" src="../images/micromouse-circuit.png">
+<div class="ui medium right floated rounded image">
+  <img class="ui image" src="../images/sprk_landingpg.jpg">
+  <img class="ui image" src="../images/amazonspark2.jpg">
 </div>
 
 Amazon Spark is a place to discover things from people who share your interests. Whether you’re looking for inspiration for home décor or seeking advice for the best long-distance running shoes, Spark makes it easy to discover—and shop—stories and ideas from a community that likes what you like.
