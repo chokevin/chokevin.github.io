@@ -21,4 +21,4 @@ The project was implemented Android and IntelliJ. There was a large learning cur
 
 In this project I gained experience with version control, mobile development, and the internet of things. This was the project that I had decided for my senior design.
 
-You can see more at [Ambient Dynamix](http://ambientdynamix.org/).
+Source: <a href="https://github.com/chokevin/NearbyApplication"><i class="large github icon "></i>chokevin/NearbyApplication</a>
