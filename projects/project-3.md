@@ -15,7 +15,7 @@ summary: A data visualization dashboard for weather sensor data collected by the
 
 <img class="ui medium right floated rounded image" src="{{ site.baseurl }}/images/SCEL_Webpage.png">
 
-The Smart Campus Energy Lab is led by Dr. Anthony Kuh, a professor of Electrical Engineering at the University of Hawaii at Manoa.
+The Smart Campus Energy Lab is led by Dr. Anthony Kuh, a professor of Electrical Engineering at the University of Hawaii at Manoa. I help support the efforts of the SCEL team by volunteering my support as a software developer on the unified software team.
 
 Our goal is to support efforts in creating new technologies, techniques and products related to sustainability or renewable energy. We are primarily a student-led lab that strives to achieve this by promoting teamwork, communication, and lifelong learning.
 

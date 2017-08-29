@@ -19,6 +19,6 @@ In this project, I implemented the Google Nearby API in a prototype application 
 
 The project was implemented Android and IntelliJ. There was a large learning curve since I had never dealt with Java before; however, I was able to quickly produce a working demonstration by the end of the semester.
 
-In this project I gained experience with version control, mobile development, and the internet of things. 
+In this project I gained experience with version control, mobile development, and the internet of things. This was the project that I had decided for my senior design.
 
 You can see more at [Ambient Dynamix](http://ambientdynamix.org/).

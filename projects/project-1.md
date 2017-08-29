@@ -21,4 +21,6 @@ Amazon Spark is a place to discover things from people who share your interests.
 
 For this project, I worked on enhancing the publishing experience of the application. I had to program in both Java and React Native to implement new features on the application. We worked in an agile environment and accomplished tasks efficiently.
 
+This project was part of an internship at the Amazon Seattle location. It was a eye-opening experience to go to the Amazon HQ and see the type of work that they are working on. It has definitely shaped how I perceive software development.
+
 You can learn more at [Amazon Spark](https://www.amazon.com/spark/).
