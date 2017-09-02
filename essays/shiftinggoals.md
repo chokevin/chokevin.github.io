@@ -2,7 +2,7 @@
 layout: essay
 type: essay
 title: Shifting Goals
-date: 2016-08-27
+date: 2017-08-27
 labels:
   - Engineering
   - Goal Setting
