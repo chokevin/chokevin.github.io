@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: Building a House: Would You Rather
+title: Building a House, Would You Rather
 date: 2017-10-01
 labels:
   - Frameworks
