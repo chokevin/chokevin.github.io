@@ -10,30 +10,8 @@ labels:
 
 <img class="ui small right floated spaced image" src="../images/meteor-2.jpg">
 
-It is said that in dancing, the men are to act as the frame to provide a basis for their partner to create. A good leading role will become a sturdy frame for their partner. At the same time, a bad partner will not know how to utilize the frame. This is similar to the Meteor framework. 
+It is said that in dancing, the men are to act as the frame to provide a basis for their partner to create. A good leading role will become a sturdy frame for their partner. At the same time, a bad partner will not know how to utilize the frame. This is similar to the Meteor framework.
 
-As I browsed Reddit, I came across a very suitable question for software engineering as a whole. The user said that in an interview the following question was asked:
+The Meteor framework was one heck of a journey. Getting started with any framework is tough, but this one seemed to take the cake. I've dealt with other frameworks such as React and Angular before, but Meteor has caused me the most frustration. I don't think another framework has made me wonder about the ins and outs so much while developing. However, I do see the benefit of developing a Meteor application. It takes care of both the server side and client side code in javascript. In comparison to the popular framework React, React only takes care of front end DOM manipulation with the help of Redux or Flux. It needs a backend such as Node to create a fully functioning web application. This is where the acronym  for MongoDB, Express.js, React.js, Node.js (MERN) comes from due to the need for multiple different parts to create a fully functioning application. Meteor encapsulates the Node backend, routing, and the DOM manipulation into one package which can simplify the development quick prototyping of applications.
 
-<blockquote> "Is programming an art or a science?" </blockquote>
-
-The response the user said received high praise which I also agree with.
-
-<blockquote>"Programming is a craft." </blockquote>
-
-A craft where the programmer spends countless amounts of hours refining. The types of programs start out tutorial-like and basic, yet over time become beautiful masterpieces. Much like a sculptor achieving his "David".
-
-Such is Meteor. Over the past few days I had encountered numerous problems that made me question the existence of the Meteor framework. One of those problems I outline below.
-
-### Unable to load add-content, edit-content, and homepage simultaneously
-
-<img class="ui small floated spaced image" src="https://imgs.xkcd.com/comics/fixing_problems.png">
-
-Many users may not have encountered this problem if they blindly followed the tutorial. I certainly am not that type of person. As such when the tutorial mentioned to delete certain javascript files attached to my add-content page I readily ignored it. Why would javascript attached to my file cause any issues with loading pages? Especially if it's javascript that pertained to the template file. I was completely wrong. I spent the whole afternoon trying to find pieces of code that may have potentially been causing the error. Changing syntax, moving lines of code around, deleting lines of code, until I finally decided to delete the syntax in the javascript file.
-
-### BOOM. Everything Loaded
-
-What a struggle of an afternoon. Except now I have faced one struggle that I shouldn't face again. Except that was not the end of my problems.
-
-### Initializing IntellijIDEA and new Meteor Applications
-
-I understand that for most users they may only build one Meteor application every few months. To the average user they would begin one meteor application and develop on it for multiple hours until achieving a nice web application. Except in my case I have been building new meteor applications for tutorials for the past few weeks. Each time I start up an instance of meteor and load the files into Intellij takes about five minutes. When dealing with time sensitive trials, such as the ones I deal with in my software engineering class, I found myself doing edits in vim and finishing the code before my Intellij finished indexing my files. I have yet to solve this issue, but I find myself wondering if it is worth fixing this issue. It will be soon that I dedicate the last few weeks of school to implementing a large-scale Meteor application where it will only need one initialization. For now I will struggle on.
+With all the confusion I went through, I honestly would probably replace Meteor with React or Angular in a future project. However, I do see how Meteor can provide a strong foundation for application developers. It provides a one-stop-shop for many required features for web application development and simplifies the model. For me, I would rather have a web stack that is much more segmented so I can clearly see the differences between client-side development, server-side development, routing, and database manipulation.
