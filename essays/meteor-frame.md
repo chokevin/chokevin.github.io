@@ -8,7 +8,7 @@ labels:
   - Meteor
 ---
 
-<img class="ui small right floated spaced image" src="../images/meteor-2.jpg">
+<img class="ui small right floated spaced image" src="../images/blackmeteor.png">
 
 It is said that in dancing, the men are to act as the frame to provide a basis for their partner to create. A good leading role will become a sturdy frame for their partner. At the same time, a bad partner will not know how to utilize the frame. This is similar to the Meteor framework.
 
