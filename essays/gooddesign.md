@@ -10,7 +10,7 @@ labels:
 
 <img class="ui small right floated spaced image" src="http://www.pearlwhitemedia.com/wp-content/uploads/2017/10/presentation.design.jpg">
 
-When working at my internship this past summer, my manager had imparted on me one software engineering idiom that has kept with me. He had just moved over to Amazon one week after I started my internship. The manager that held the responsibility of getting me through my 12-week internship at different company working on a technology stack completely different to his expertise had just started a week before I did. That's five business days. Doesn't instill much confidence in a person. At least I didn't feel confident about him.
+When working at my internship this past summer, my manager had imparted on me one software engineering idiom that has kept with me. He had just moved over to Amazon one week after I started my internship. The manager that held the responsibility of getting me through my 12-week internship at different company working on a technology stack completely different to his expertise had just started a week before I did. That's five business days. Doesn't instill much confidence in a person. I didn't feel confident about him.
 
 Yet this guy was quite the software engineer. He had spent a majority of his career across the street at Microsoft working on kernel development for the Window's OS. His last coding stint was working with some of Microsoft's smartest guys contributing code to a codebase that reaches millions of people. During his time as a manager he also helped mentor interns into successful projects.
 

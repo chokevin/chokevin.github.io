@@ -84,6 +84,18 @@
     }
   ],
   "work": [
+      {
+        "company": "University of Hawaii",
+        "position": "Undergraduate Research intern",
+        "website": "http://ambientdynamix.org/",
+        "startDate": "2017-11-15",
+        "endDate": "Present",
+        "summary": "Backend developer for UH Ambient Computing Laboratory",
+        "highlights": [
+          "Backend/DevOps engineer focused on designing smart campus systems through preemptive allocation of smart spaces using Microsoft Azure and Python",
+          "One of the founding members of the UH Ambient Computing Laboratory supporting project team with virtual and augmented reality research",
+        ]
+      },
     {
       "company": "Amazon",
       "position": "Software Development Engineer",
@@ -137,6 +149,7 @@ Native/Flux and Java/Spring which is used in >80% of all published posts",
       "endDate": "Present",
       "summary": "Developer for data visualization and backend technologies",
       "highlights": [
+        "$5700 in funding from University of Hawaii at Manoa Undergraduate Research Opportunity Program"
         "Implemented plot generation through the plot.ly Python API for collected sensor data",
         "Pioneered unit and integration testing through pytest, coverage, and nose which led to 100% code coverage"
       ]
