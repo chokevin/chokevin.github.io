@@ -149,7 +149,7 @@ Native/Flux and Java/Spring which is used in >80% of all published posts",
       "endDate": "Present",
       "summary": "Developer for data visualization and backend technologies",
       "highlights": [
-        "$5700 in funding from University of Hawaii at Manoa Undergraduate Research Opportunity Program"
+        "$5700 in funding from University of Hawaii at Manoa Undergraduate Research Opportunity Program",
         "Implemented plot generation through the plot.ly Python API for collected sensor data",
         "Pioneered unit and integration testing through pytest, coverage, and nose which led to 100% code coverage"
       ]
