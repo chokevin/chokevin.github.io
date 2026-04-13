@@ -1,5 +1,24 @@
 ---
 layout: default
+title: Home
 ---
 
-{% include {{ site.theme-home }} %}
+Welcome to my personal blog. I write about software, engineering lessons, and projects I'm building.
+
+## Latest Posts
+
+{% if site.posts.size > 0 %}
+<ul class="post-list">
+  {% for post in site.posts %}
+  <li>
+    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time>
+    {% if post.excerpt %}
+    <p class="meta">{{ post.excerpt | strip_html | truncate: 130 }}</p>
+    {% endif %}
+  </li>
+  {% endfor %}
+</ul>
+{% else %}
+<p class="meta">No posts yet. Check back soon.</p>
+{% endif %}
