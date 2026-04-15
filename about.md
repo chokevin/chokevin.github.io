@@ -4,12 +4,13 @@ title: About
 permalink: /about/
 ---
 
-**Mission Notes** is a technical publication by Kevin Cho.
+Hey, I'm Kevin.
 
-This site focuses on practical engineering lessons from building and operating software systems:
+This is my personal blog. I write about:
 
 - architecture tradeoffs
 - reliability and debugging patterns
-- playbooks that are useful under pressure
+- project updates
+- things I'm currently learning
 
-The goal is simple: publish clear, reusable notes that help future decisions move faster.
+Mostly, this is a place to think out loud and keep useful notes in one place.

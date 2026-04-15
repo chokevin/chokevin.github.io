@@ -1,15 +1,15 @@
-title: Mission Notes
+title: Kevin's Blog
 author_name: Kevin Cho
 email: chokevinjs@gmail.com
-description: "Engineering notes on software systems, reliability, and real-world operations."
+description: "Personal blog with notes on software, engineering, and things I'm learning."
 url: "https://chokevin.github.io"
 baseurl: ""
 timezone: "America/Los_Angeles"
 markdown: kramdown
 permalink: /:year/:month/:day/:title/
-home_kicker: "Mission Critical"
-home_title: "Building software for real-world systems."
-home_intro: "A running collection of engineering notes, architecture lessons, and operations stories from building things that need to work in the real world."
+home_kicker: "Personal Blog"
+home_title: "Notes on building software and learning in public."
+home_intro: "I use this space to write down practical lessons, project updates, and things I want to remember for future me."
 
 exclude:
   - bio
