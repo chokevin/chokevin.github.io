@@ -6,6 +6,9 @@ baseurl: ""
 timezone: "America/Los_Angeles"
 markdown: kramdown
 permalink: /:year/:month/:day/:title/
+home_kicker: "Mission Notes"
+home_title: "Building software for real-world systems."
+home_intro: "Ideas, field notes, and practical lessons from engineering work that has to hold up under pressure."
 
 exclude:
   - bio

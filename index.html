@@ -3,22 +3,40 @@ layout: default
 title: Home
 ---
 
-Welcome to my personal blog. I write about software, engineering lessons, and projects I'm building.
+<section class="hero">
+  <p class="eyebrow">{{ site.home_kicker }}</p>
+  <h1 class="hero-title">{{ site.home_title }}</h1>
+  <p class="hero-intro">{{ site.home_intro }}</p>
+</section>
 
-## Latest Posts
+<section class="story-section">
+  <div class="story-section-head">
+    <h2>Latest Posts</h2>
+  </div>
 
-{% if site.posts.size > 0 %}
-<ul class="post-list">
-  {% for post in site.posts %}
-  <li>
-    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-    <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time>
-    {% if post.excerpt %}
-    <p class="meta">{{ post.excerpt | strip_html | truncate: 130 }}</p>
-    {% endif %}
-  </li>
-  {% endfor %}
-</ul>
-{% else %}
-<p class="meta">No posts yet. Check back soon.</p>
-{% endif %}
+  {% if site.posts.size > 0 %}
+  <div class="story-grid">
+    {% for post in site.posts %}
+    <article class="story-card">
+      <div class="chip-row">
+        {% if post.categories and post.categories.size > 0 %}
+          {% for category in post.categories limit:2 %}
+          <span class="chip">{{ category }}</span>
+          {% endfor %}
+        {% else %}
+          <span class="chip">Notes</span>
+        {% endif %}
+      </div>
+      <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+      <p class="story-excerpt">{{ post.excerpt | strip_html | truncate: 165 }}</p>
+      <div class="story-meta">
+        <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time>
+        <a class="read-more" href="{{ post.url | relative_url }}">Read more →</a>
+      </div>
+    </article>
+    {% endfor %}
+  </div>
+  {% else %}
+  <p class="meta">No posts yet. Check back soon.</p>
+  {% endif %}
+</section>
