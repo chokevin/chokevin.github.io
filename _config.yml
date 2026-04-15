@@ -2,14 +2,13 @@ title: Kevin's Blog
 author_name: Kevin Cho
 email: chokevinjs@gmail.com
 description: "Personal blog with notes on software, engineering, and things I'm learning."
+x_url: "https://x.com/chokevinjs"
+linkedin_url: "https://www.linkedin.com/in/chojskevin/"
 url: "https://chokevin.github.io"
 baseurl: ""
 timezone: "America/Los_Angeles"
 markdown: kramdown
 permalink: /:year/:month/:day/:title/
-home_kicker: "Personal Blog"
-home_title: "Notes on building software and learning in public."
-home_intro: "I use this space to write down practical lessons, project updates, and things I want to remember for future me."
 
 exclude:
   - bio

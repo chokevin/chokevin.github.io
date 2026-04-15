@@ -3,16 +3,19 @@ layout: default
 title: Home
 ---
 
-<section class="hero">
-  <p class="eyebrow">{{ site.home_kicker }}</p>
-  <h1 class="hero-title">{{ site.home_title }}</h1>
-  <p class="hero-intro">{{ site.home_intro }}</p>
+<section class="profile-hero">
+  <h1 class="profile-name">{{ site.author_name }}</h1>
+  <div class="profile-links">
+    <a class="profile-link" href="{{ site.x_url }}" target="_blank" rel="noopener noreferrer">X</a>
+    <a class="profile-link" href="{{ site.linkedin_url }}" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+  </div>
 </section>
 
 <section class="story-section">
+  <h2 class="story-section-title">Latest Articles</h2>
   {% if site.posts.size > 0 %}
   <div class="story-grid">
-    {% for post in site.posts %}
+    {% for post in site.posts limit:3 %}
     <article class="story-card">
       <a class="story-media" href="{{ post.url | relative_url }}">
         {% if post.image %}

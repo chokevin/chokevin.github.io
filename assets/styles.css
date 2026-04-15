@@ -114,33 +114,48 @@ a:hover {
   padding-bottom: 3rem;
 }
 
-.hero {
+.profile-hero {
   margin: 0 0 2rem;
-  max-width: 860px;
+  text-align: center;
+  padding: 0.4rem 0 0.2rem;
 }
 
-.eyebrow {
-  margin: 0 0 0.7rem;
-  font-size: 0.76rem;
-  text-transform: uppercase;
-  letter-spacing: 0.14em;
-  color: #41679e;
-  font-weight: 700;
-}
-
-.hero-title {
+.profile-name {
   margin: 0;
-  font-size: clamp(2rem, 3.25vw, 3.35rem);
-  line-height: 1.1;
-  letter-spacing: -0.022em;
-  text-wrap: balance;
+  font-size: clamp(2.1rem, 3.6vw, 3.6rem);
+  line-height: 1.05;
+  letter-spacing: -0.025em;
 }
 
-.hero-intro {
-  margin: 0.95rem 0 0;
-  color: var(--muted);
-  font-size: 1.04rem;
-  max-width: 72ch;
+.profile-links {
+  margin-top: 1rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+}
+
+.profile-link {
+  text-decoration: none;
+  color: #22344e;
+  border: 1px solid var(--border-strong);
+  background: #ffffff;
+  border-radius: 999px;
+  padding: 0.3rem 0.84rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.profile-link:hover {
+  color: #0f172a;
+  border-color: #95adcf;
+}
+
+.story-section-title {
+  margin: 0 0 0.9rem;
+  font-size: 0.95rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #4a6287;
 }
 
 .story-grid {
