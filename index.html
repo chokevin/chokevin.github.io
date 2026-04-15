@@ -3,48 +3,21 @@ layout: default
 title: Home
 ---
 
-<section class="profile-hero">
+<section class="profile-hero profile-hero--home">
   <h1 class="profile-name">{{ site.author_name }}</h1>
+  <p class="profile-title-text">{{ site.title }}</p>
   <div class="profile-links">
-    <a class="profile-link" href="{{ site.x_url }}" target="_blank" rel="noopener noreferrer">X</a>
-    <a class="profile-link" href="{{ site.linkedin_url }}" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+    <a class="profile-link" href="{{ site.x_url }}" target="_blank" rel="noopener noreferrer" aria-label="X profile">
+      <svg class="profile-link-icon" viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M18.244 2H21.5l-7.113 8.13L22.75 22h-6.545l-5.125-6.7L5.227 22H2l7.607-8.694L1.5 2h6.71l4.633 6.12L18.244 2Zm-1.146 18h1.803L7.23 3.895H5.294L17.098 20Z"/>
+      </svg>
+      <span>X</span>
+    </a>
+    <a class="profile-link" href="{{ site.linkedin_url }}" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile">
+      <svg class="profile-link-icon" viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M6.94 8.5a1.96 1.96 0 1 0 0-3.92 1.96 1.96 0 0 0 0 3.92ZM5.27 9.9h3.33V20.5H5.27V9.9Zm5.2 0h3.19v1.45h.04c.44-.84 1.53-1.73 3.15-1.73 3.37 0 4 2.22 4 5.1v5.78H17.5v-5.12c0-1.22-.02-2.79-1.7-2.79-1.71 0-1.98 1.33-1.98 2.7v5.21h-3.35V9.9Z"/>
+      </svg>
+      <span>LinkedIn</span>
+    </a>
   </div>
-</section>
-
-<section class="story-section">
-  <h2 class="story-section-title">Latest Articles</h2>
-  {% if site.posts.size > 0 %}
-  <div class="story-grid">
-    {% for post in site.posts limit:3 %}
-    <article class="story-card">
-      <a class="story-media" href="{{ post.url | relative_url }}">
-        {% if post.image %}
-        <img src="{{ post.image | relative_url }}" alt="" loading="lazy">
-        {% else %}
-        <span class="story-media-fallback"></span>
-        {% endif %}
-      </a>
-      <div class="story-body">
-      <div class="chip-row">
-        {% if post.categories and post.categories.size > 0 %}
-          {% for category in post.categories limit:2 %}
-          <span class="chip">{{ category }}</span>
-          {% endfor %}
-        {% else %}
-          <span class="chip">Notes</span>
-        {% endif %}
-      </div>
-      <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
-      <p class="story-excerpt">{{ post.excerpt | strip_html | truncate: 165 }}</p>
-      <div class="story-meta">
-        <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time>
-        <a class="read-more" href="{{ post.url | relative_url }}">Read more →</a>
-      </div>
-      </div>
-    </article>
-    {% endfor %}
-  </div>
-  {% else %}
-  <p class="meta">No posts yet. Check back soon.</p>
-  {% endif %}
 </section>
