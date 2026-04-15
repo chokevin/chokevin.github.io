@@ -278,6 +278,62 @@ a:hover {
   color: var(--muted);
 }
 
+.articles-page {
+  max-width: 860px;
+  margin: 0 auto;
+}
+
+.articles-list {
+  display: grid;
+  gap: 0.85rem;
+}
+
+.article-row {
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  background: var(--surface);
+  padding: 0.95rem 1rem 1rem;
+}
+
+.article-row-meta {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.82rem;
+}
+
+.article-row-title {
+  margin: 0.38rem 0 0;
+  line-height: 1.25;
+  font-size: clamp(1.06rem, 1.7vw, 1.3rem);
+  letter-spacing: -0.008em;
+}
+
+.article-row-title a {
+  color: var(--text);
+  text-decoration: none;
+}
+
+.article-row-title a:hover {
+  color: #334155;
+}
+
+.article-row-excerpt {
+  margin: 0.55rem 0 0.72rem;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.article-row-link {
+  color: var(--text);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.article-row-link:hover {
+  color: #334155;
+}
+
 .story-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));

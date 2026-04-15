@@ -4,38 +4,23 @@ title: Articles
 permalink: /articles/
 ---
 
-<section class="story-section">
+<section class="articles-page">
   <h1 class="articles-title">Articles</h1>
-  <p class="articles-intro">Latest writing from the blog.</p>
+  <p class="articles-intro">All posts and notes from the blog.</p>
 
   {% if site.posts.size > 0 %}
-  <div class="story-grid">
-    {% for post in site.posts limit:3 %}
-    <article class="story-card">
-      <a class="story-media" href="{{ post.url | relative_url }}">
-        {% if post.image %}
-        <img src="{{ post.image | relative_url }}" alt="" loading="lazy">
-        {% else %}
-        <span class="story-media-fallback"></span>
+  <div class="articles-list">
+    {% for post in site.posts %}
+    <article class="article-row">
+      <p class="article-row-meta">
+        <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time>
+        {% if post.categories and post.categories.size > 0 %}
+        · {{ post.categories | join: " · " }}
         {% endif %}
-      </a>
-      <div class="story-body">
-        <div class="chip-row">
-          {% if post.categories and post.categories.size > 0 %}
-            {% for category in post.categories limit:2 %}
-            <span class="chip">{{ category }}</span>
-            {% endfor %}
-          {% else %}
-            <span class="chip">Notes</span>
-          {% endif %}
-        </div>
-        <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
-        <p class="story-excerpt">{{ post.excerpt | strip_html | truncate: 165 }}</p>
-        <div class="story-meta">
-          <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time>
-          <a class="read-more" href="{{ post.url | relative_url }}">Read more →</a>
-        </div>
-      </div>
+      </p>
+      <h2 class="article-row-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+      <p class="article-row-excerpt">{{ post.excerpt | strip_html | truncate: 220 }}</p>
+      <a class="article-row-link" href="{{ post.url | relative_url }}">Read article →</a>
     </article>
     {% endfor %}
   </div>
