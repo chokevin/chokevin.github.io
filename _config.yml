@@ -1,6 +1,7 @@
-title: Kevin Cho
+title: Mission Notes
+author_name: Kevin Cho
 email: chokevinjs@gmail.com
-description: "Personal blog about software, learning, and projects."
+description: "Engineering notes on software systems, reliability, and real-world operations."
 url: "https://chokevin.github.io"
 baseurl: ""
 timezone: "America/Los_Angeles"

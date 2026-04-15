@@ -29,7 +29,7 @@
 
     <footer class="site-footer">
       <div class="container">
-        <p>© {{ site.time | date: '%Y' }} {{ site.title }} · Published with GitHub Pages and Jekyll.</p>
+        <p>© {{ site.time | date: '%Y' }} {{ site.title }}{% if site.author_name %} · By {{ site.author_name }}{% endif %} · Published with GitHub Pages and Jekyll.</p>
       </div>
     </footer>
   </div>
