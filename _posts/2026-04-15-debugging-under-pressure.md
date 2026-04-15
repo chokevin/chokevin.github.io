@@ -3,6 +3,7 @@ layout: post
 title: "Debugging under pressure without losing the thread"
 date: 2026-04-15 08:15:00 -0700
 categories: [Operations, Engineering]
+image: /assets/covers/debugging.svg
 ---
 
 High-pressure debugging gets chaotic fast. The instinct is to try everything at once, but that usually makes the timeline harder to trust.

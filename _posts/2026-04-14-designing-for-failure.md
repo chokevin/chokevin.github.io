@@ -3,6 +3,7 @@ layout: post
 title: "Designing systems that fail loud, not silent"
 date: 2026-04-14 09:30:00 -0700
 categories: [Architecture, Reliability]
+image: /assets/covers/design-failure.svg
 ---
 
 Most production incidents are not caused by one dramatic bug. They happen when small assumptions stack and nobody notices the drift.

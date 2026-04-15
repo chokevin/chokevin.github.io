@@ -9,39 +9,19 @@ title: Home
   <p class="hero-intro">{{ site.home_intro }}</p>
 </section>
 
-{% assign featured_post = site.posts.first %}
-{% if featured_post %}
-<section class="featured-section">
-  <article class="featured-card">
-    <div class="chip-row">
-      {% if featured_post.categories and featured_post.categories.size > 0 %}
-        {% for category in featured_post.categories limit:2 %}
-        <span class="chip">{{ category }}</span>
-        {% endfor %}
-      {% else %}
-        <span class="chip">Notes</span>
-      {% endif %}
-    </div>
-    <p class="featured-kicker">Featured article</p>
-    <h2><a href="{{ featured_post.url | relative_url }}">{{ featured_post.title }}</a></h2>
-    <p class="featured-excerpt">{{ featured_post.excerpt | strip_html | truncate: 240 }}</p>
-    <div class="story-meta">
-      <time datetime="{{ featured_post.date | date_to_xmlschema }}">{{ featured_post.date | date: "%B %-d, %Y" }}</time>
-      <a class="read-more" href="{{ featured_post.url | relative_url }}">Read featured story →</a>
-    </div>
-  </article>
-</section>
-{% endif %}
-
 <section class="story-section">
-  <div class="story-section-head">
-    <h2>More stories</h2>
-  </div>
-
-  {% if site.posts.size > 1 %}
+  {% if site.posts.size > 0 %}
   <div class="story-grid">
-    {% for post in site.posts offset:1 %}
+    {% for post in site.posts %}
     <article class="story-card">
+      <a class="story-media" href="{{ post.url | relative_url }}">
+        {% if post.image %}
+        <img src="{{ post.image | relative_url }}" alt="" loading="lazy">
+        {% else %}
+        <span class="story-media-fallback"></span>
+        {% endif %}
+      </a>
+      <div class="story-body">
       <div class="chip-row">
         {% if post.categories and post.categories.size > 0 %}
           {% for category in post.categories limit:2 %}
@@ -57,10 +37,11 @@ title: Home
         <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time>
         <a class="read-more" href="{{ post.url | relative_url }}">Read more →</a>
       </div>
+      </div>
     </article>
     {% endfor %}
   </div>
   {% else %}
-  <p class="meta">More posts coming soon.</p>
+  <p class="meta">No posts yet. Check back soon.</p>
   {% endif %}
 </section>
