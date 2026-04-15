@@ -6,6 +6,7 @@ title: Home
 <section class="profile-hero profile-hero--home">
   <h1 class="profile-name">{{ site.author_name }}</h1>
   <p class="profile-title-text">{{ site.title }}</p>
+  <p class="profile-intro">{{ site.home_intro }}</p>
   <div class="profile-links">
     <a class="profile-link" href="{{ site.x_url }}" target="_blank" rel="noopener noreferrer" aria-label="X profile">
       <svg class="profile-link-icon" viewBox="0 0 24 24" aria-hidden="true">
@@ -19,5 +20,24 @@ title: Home
       </svg>
       <span>LinkedIn</span>
     </a>
+  </div>
+
+  <div class="currently-row">
+    <span><strong>Building:</strong> {{ site.currently_building }}</span>
+    <span><strong>Learning:</strong> {{ site.currently_learning }}</span>
+    <span><strong>Reading:</strong> {{ site.currently_reading }}</span>
+  </div>
+
+  {% assign latest_post = site.posts.first %}
+  {% if latest_post %}
+  <div class="latest-inline">
+    <p class="latest-inline-label">Latest article</p>
+    <a class="latest-inline-link" href="{{ latest_post.url | relative_url }}">{{ latest_post.title }} →</a>
+  </div>
+  {% endif %}
+
+  <div class="home-cta-row">
+    <a class="home-cta" href="{{ '/articles/' | relative_url }}">Read Articles</a>
+    <a class="home-cta home-cta--subtle" href="{{ '/about/' | relative_url }}">About</a>
   </div>
 </section>
